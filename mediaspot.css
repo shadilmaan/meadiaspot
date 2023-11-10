@@ -1,0 +1,649 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main_div {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aqua; */
+  background-image: url(images/advertising.image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navabar_div {
+  width: 100%;
+  height: 100px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+}
+.media_logo_div {
+  width: 300px;
+  height: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.media_logo_class {
+  height: 60px;
+  width: 250px;
+}
+.about_div{
+  height: 100%;
+  width: 700px;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home_span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  /* color: orange; */
+  color: black;
+}
+
+.home_span:hover {
+  color: purple;
+  transition-duration: 1s;
+}
+.home_in_div {
+  display: none;
+  position: fixed;
+}
+.home_span:hover .home_in_div {
+  display: block;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* background-color: rgb(254, 254, 254); */
+  color: black;
+  
+}
+.home_span_1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  /* color: orange; */
+  
+}
+.home_span_1:hover {
+  color: purple;
+  transition-duration: 1s;
+}
+.home_in_div_1 {
+  display: none;
+  position: fixed;
+}
+.home_span_1:hover .home_in_div_1 {
+  display: block;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* background-color: rgb(254, 254, 254); */
+  color: black;
+  /* transition-duration: 1s; */
+}
+.h_tag {
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+.h_tag:hover {
+  color: orangered;
+  margin-left: 20px;
+  transition: margin-left 0.6s ease;
+  /* transition-duration: 1s; */
+}
+.apps_div {
+  height: 100%;
+  width: 200px;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.apps_logo {
+  height: 40px;
+  
+}
+.maintext_div {
+  height: 300px;
+  width: 100%;
+  /* background-color: coral; */
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.mediaspot_text_div {
+  width: 350px;
+  height: 50px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  /* flex-direction: column; */
+}
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: rgb(190, 190, 190);
+}
+.media_span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color:orange;
+  font-weight: bold;
+}
+.main_text {
+  height: 130px;
+  width: 1000px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_text_class {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 80px;
+  color: orange;
+  letter-spacing: 20px;
+}
+.small_text_div {
+  height: 80px;
+  width: 400px;
+  /* background-color: crimson; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.small_span {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: orange;
+}
+.offcanvas-menus{
+  display: none;
+}
+.offbutton{
+  outline: none;
+  border: none;
+  background: none;
+}
+.main {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.subdiv1 {
+  /* background-color: chartreuse; */
+  width: 50%;
+  height: 700px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-right: 110px;
+}
+.backshadow-box {
+  background-color: rgba(225, 223, 222, 0.371);
+  width: 30%;
+  height: 85%;
+  position: absolute;
+}
+.subdiv2 {
+  /* background-color: rgb(228, 112, 66); */
+  width: 50%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.img1 {
+  width: 500px;
+  height: 300px;
+  /* margin-top: 100px; */
+  margin-left: -50px;
+  position: relative;
+  /* opacity: 0.5; */
+}
+.imgdiv2 {
+  background-color: orangered;
+  width: 450px;
+  height: 200px;
+  position: relative;
+  bottom: 300px;
+  left: 335px;
+  border-radius: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgdiv1 {
+  /* background-color: violet; */
+  height: 600px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.img2 {
+  width: 200px;
+  height: 200px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.img3 {
+  width: 250px;
+  height: 100px;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: white;
+  transition: margin-left 0.6s;
+}
+.success:hover {
+  margin-left: 20px;
+}
+
+.write85 {
+  /* background-color: rgb(133, 31, 229); */
+  width: 100px;
+  height: 80px;
+  font-size: 40px;
+  position: relative;
+  /* bottom: 20px; */
+  /* top: 120px; */
+  z-index: 1;
+  /* margin-top: 265px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* right: 216px; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  left: 113px;
+  top: 20px;
+}
+.subdiv2 {
+  display: flex;
+  flex-direction: column;
+}
+.aboutc {
+  /* text-decoration: none;
+    font-size: 19px;
+    color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400; */
+  /* background-color: aqua; */
+  /* position: relative; */
+  position: relative;
+  font-size: 19px;
+  color: green;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aboutc:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 5px;
+  width: 0;
+  background-color: orangered;
+  border-radius: 50px;
+  transition: width 0.5s ease;
+}
+.aboutc:hover:before {
+  width: 17%;
+}
+.round_img {
+  width: 130px;
+  height: 130px;
+}
+
+.headd {
+  /* background-color: bisque; */
+  height: 80px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.para {
+  /* background-color: blueviolet; */
+  width: 600px;
+  /* height: 700px; */
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  height: 350px;
+  text-align: start;
+  color: black;
+}
+.knowallbtn {
+  background-color: rgb(0, 255, 221);
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+.knowallbtn:hover {
+  background-color: orangered;
+  transition-duration: 1s;
+}
+.vvv {
+  background-color: green;
+  width: 130px;
+  height: 3px;
+}
+
+
+
+
+.project {
+  width: 100%;
+  height: 120vh;
+  /* background-color: rgb(221, 16, 173); */
+  background-image: url(https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item3 {
+  width: 98%;
+  height: 50vh;
+  /* background-color: rgb(44, 11, 143); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.A {
+  background-color: rgba(36, 36, 159, 0.568);
+  width: 29%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px 0px 30px 0px;
+  transition: width 0.25s ease;
+}
+
+.A:hover {
+  width: 300px;
+}
+
+.A:hover {
+  background-color: #dc0025bc;
+  transition: 0.5s;
+}
+
+.timg {
+  width: 80px;
+}
+
+.timglogo {
+  width: 200px;
+}
+
+.pho {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.digi {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.div2 {
+  background-color: rgba(8, 162, 46, 0.358);
+  width: 95%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 35px 0px 35px 0px;
+
+  color: rgba(255, 255, 255, 0.689);
+}
+
+.about {
+  width: 330px;
+  height: 250px;
+  /* background-color: tomato; */
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.aboutexplain {
+  line-height: 25px;
+  text-align: left;
+}
+
+/* .outline{
+  width: 400px;
+}
+
+.underline {
+  width: 120px;
+  height: 5px;
+
+  background-color:  rgb(234, 232, 230);
+  border-radius: 10px;
+}
+.innerline {
+  
+  width: 10px;
+  height: 5px;
+  position: relative;
+  background-color: rgb(59, 36, 232);
+ 
+  margin-top: -5px;
+  border-radius: 10px;
+  border-radius: 10px;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+    left: -10px;
+  }
+  100%{
+    left: 50%;
+  }
+
+} */
+
+.heading {
+  display: inline-block;
+  position: relative;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.heading:hover {
+  transform: scale(1);
+  transition-duration: 0.5s;
+  font-size: 25px;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  transform: scaleX(0);
+  bottom: 0;
+  height: 3px;
+  left: 0;
+  background-color: #f03050;
+
+  transform-origin: bottom right;
+  transition: transform 0.25s ease;
+  border-radius: 30px;
+}
+
+.heading:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.media {
+  /* background-color: blue; */
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medi:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+
+.quick {
+  /* background-color: tomato; */
+  width: 150px;
+  height: 250px;
+  font-family: "Open Sans", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.ourservices {
+  /* background-color: tomato; */
+  width: 160px;
+  height: 250px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.noname {
+  /* background-color: tomato; */
+  width: 380px;
+  height: 190px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.atag {
+  /* background-color: #10b04d; */
+  text-decoration: none;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.689);
+}
+
+.atag:hover {
+  font-size: 19px;
+  transform: scale(1.5);
+  transition-duration: 0.25s;
+  color: #f21237f4;
+}
+
+.nonametext1 {
+  width: 180px;
+  height: 160px;
+  /* background-color: blueviolet; */
+}
+
+.nonametext2 {
+  width: 180px;
+  height: 160px;
+  /* background-color: blueviolet; */
+}
+
+.div3 {
+  /* background-color: rgba(255, 255, 255, 0.434); */
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hrline {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* color:white; */
+  border: 1px solid white;
+}
+
+.icon {
+  position: relative;
+  margin-top: 48px;
+}
+
+.icon:hover {
+  width: 50px;
+  transform: scale(1);
+  transition-duration: 0.25s;
+}
+
+.lapara {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(43, 11, 221);
+}
+
+.Copylastbold {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(227, 216, 237);
+}
+
+.qui:hover {
+  font-size: 20px;
+  transform: scale(1.5);
+  transition-duration: 0.25s;
+  color: #f21237f4;
+}
+
+
